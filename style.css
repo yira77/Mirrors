@@ -1,0 +1,115 @@
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        #toolbar {
+            z-index: 999;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            background: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 0.5rem 0.7rem;
+            border-radius: 16px 16px 0 0;
+            gap: 0.5rem;
+            height: 7vh;
+        }
+
+        .fillBtn {
+            color: black;
+            border: 2px solid black;
+            padding: 0.5rem;
+            margin: 0 0.2rem;
+            border-radius: 16px;
+            background: white;
+            transition: all 0.5s ease;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            touch-action: auto;
+        }
+
+        .saveBtn, .clearBtn, .num {
+            border: 2px solid #eb5002;
+            color: #eb5002;
+            padding: 0.5rem;
+            margin: 0 0.2rem;
+            border-radius: 16px;
+            background: white;
+            transition: all 0.5s ease;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            touch-action: auto;
+        }
+
+        .num{
+            width: 4%;
+        }
+
+        #toolbar i {
+            font-size: 1.1rem;
+        }
+
+        #toolbar button:hover {
+            background: #ff945f;
+            color: white;
+        }
+
+        .strokes {
+            width: 70px;
+            position: relative;
+            -webkit-appearance: none;
+            appearance: none;
+            cursor: pointer;
+            transition: all 0.5s ease;
+        }
+
+        .strokes::before {
+            content: "Stroke";
+            font-weight: 700;
+            color: #eb5002;
+            top: -14px;
+            left: 2px;
+            position: absolute;
+            text-align: left;
+            font-size: 0.8rem;
+
+        }
+
+        .strokes::-webkit-slider-runnable-track {
+            height: 6px;
+            background: #ff945f;
+            border-radius: 999px;
+        }
+
+        .strokes::-webkit-slider-thumb {
+            -webkit-appearance: none;
+            appearance: none;
+            background: #eb5002;
+            border-radius: 50%;
+            margin-top: -4px;
+            width: 0.9rem;
+            height: 0.9rem;
+            cursor: pointer;
+        }
+
+        .strokes::-moz-range-track {
+            height: 6px;
+            background: #ff945f;
+            border-radius: 999px;
+        }
+
+        .strokes::-moz-range-thumb {
+            width: 0.9rem;
+            height: 0.9rem;
+            background: #eb5002;
+            border-radius: 50%;
+            border: none;
+        }
