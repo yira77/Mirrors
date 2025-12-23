@@ -25,18 +25,22 @@ This project is about enjoying that loop. One stroke becomes many Small changes 
 - Radial mirror drawing
 - Choose the number of segments freely
 - Real-time reflection across axes
- **Color Modes**
+
+**Color Modes**
 - Solid black
 - Soft pastel
 - Continuous rainbow flow
+
 **Simple Controls**
 - Adjustable stroke thickness
 - Adjustable symmetry count
 - Clean, icon-based toolbar
+
 **Touch-Friendly**
 - Works on mobile and desktop
 - Smooth touch interactions
 - No accidental UI interruptions while drawing
+
 **Save Your Work**
 - Export artwork as PNG
 - No gallery, no feed, no pressure
@@ -50,14 +54,14 @@ This project is about enjoying that loop. One stroke becomes many Small changes 
 No frameworks. No abstraction layers. Just fundamentals.
 # Tools
 
-| Tool | Description |
-|----|----|
-| 🖌 Fill Button | Cycles through stroke color modes |
-| Slider | Adjust stroke thickness |
-| Number Input | Set number of mirror segments (1–10) |
-| Color Picker | Background color |
-| 🧹 Clear | Clear the canvas |
-| ⬇ Save | Download artwork as PNG |
+**| Tool | Description |
+|----|----|**
+|**Fill Button** | Cycles through stroke color modes |
+|**Slider** | Adjust stroke thickness |
+|**Number Input** | Set number of mirror segments (1–10) |
+|**Color Picker** | Background color |
+|**Clear**| Clear the canvas |
+|**Save** | Download artwork as PNG |
 
 # Creative Note
 Mirrors is meant to feel playful and meditative. Small changes in symmetry or stroke weight can produce dramatically different results. It works best when explored slowly.
