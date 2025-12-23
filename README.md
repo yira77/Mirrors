@@ -1,5 +1,6 @@
 # Mirrors
 An exploration of reflection, symmetry, and quiet play.
+<img width="640" height="609" alt="image" src="https://github.com/user-attachments/assets/db6ef464-508e-4992-b8c6-96fadba76314" />
 
 This is purely a practice project delving deep into the maths of angles and axes. But after going through it, I was having so much fun and so I decided to turn it into another web-app. Because why not let the world have fun too? And its not that perfect- like I could have added a thousand more features but I loved the simplicity it has now.
 # Draw Once. Let the mirror magick work.
