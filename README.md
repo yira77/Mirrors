@@ -5,9 +5,9 @@ This is purely a practice project delving deep into the maths of angles and axes
 # Draw Once. Let the mirror magick work.
 Mirrors is an interactive generative drawing tool that reflects your strokes across multiple axes, creating kaleidoscopic patterns in real time. 
 
-There’s no goal here.
-No right output.
-Just repetition, balance, and movement.
+- There’s no goal here.
+- No right output.
+- Just repetition, balance, and movement.
 
 It’s about the quiet satisfaction of seeing a simple action echo back at you
 # ✨ Why Mirrors Exists
@@ -54,8 +54,8 @@ This project is about enjoying that loop. One stroke becomes many Small changes 
 No frameworks. No abstraction layers. Just fundamentals.
 # Tools
 
-**| Tool | Description |
-|----|----|**
+| **Tool** |**Description** |
+|----|----|
 |**Fill Button** | Cycles through stroke color modes |
 |**Slider** | Adjust stroke thickness |
 |**Number Input** | Set number of mirror segments (1–10) |
